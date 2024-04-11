@@ -1,30 +1,27 @@
 ---
-
+import '../styles/global.css';
+const pageTitle = "Sobre Mim";
+import Navigation from '../components/Navigation.astro';
 ---
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>{pageTitle}</title>
+    <style>
+        h1 {
+          color: purple;
+          font-size: 4rem;
+        }
+      </style>
+  </head>
+  <body>
+    <Navigation />
+    <h1>{pageTitle}</h1>
+    <h2>... e meu novo site Astro!</h2>
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-        <h1>Meu Site Astro</h1>
-        <h1>Sobre Mim</h1>
-        <a href="/">Início</a>
-<a href="/about/">Sobre</a>
+    <p>Estou resolvendo o tutorial introdutório do Astro. Esta é a segunda página no meu website, e é a primeira que eu mesmo construí!</p>
 
-<h1>Sobre Mim</h1>
-<h2>... e meu novo site Astro!</h2>
-        <h2>... e meu novo site Astro!</h2>
-      
-        <p>Estou resolvendo o tutorial introdutório do Astro. Esta é a segunda página no meu website, e é a primeira que eu mesmo construí!</p>
-      
-        <p>Este site será atualizado enquanto eu completo mais desse tutorial, então continue verificando e veja como minha jornada está indo!</p>
-      </body>
+    <p>Este site será atualizado enquanto eu completo mais desse tutorial, então continue verificando e veja como minha jornada está indo!</p>
+  </body>
 </html>
-<style>
-	
-</style>
