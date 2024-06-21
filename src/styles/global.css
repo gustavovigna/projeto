@@ -1,81 +1,82 @@
-html {
-  background-color: #f1f5f9;
-  font-family: sans-serif;
+/* styles.css */
+
+/* Basic reset for better cross-browser compatibility */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 80ch;
-  padding: 1rem;
-  line-height: 1.5;
+  background-color: #a8a8a8;
+  color: #222222;
+  font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
+  margin: 1.25rem;
 }
 
-* {
-  box-sizing: border-box;
+img {
+  max-width: 100%;
+  height: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
-h1 {
-  margin: 1rem 0;
-  font-size: 2.5rem;
+/* Container styles */
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
 }
 
-/* estilos da navegação */
-.hamburguer {
-  padding-right: 20px;
-  cursor: pointer;
-}
+/* Column styles */
+.column {
 
-.hamburguer .line {
-  display: block;
-  width: 40px;
-  height: 5px;
+  border: 1px solid #ddd;
   margin-bottom: 10px;
-  background-color: #ff9776;
+  padding: 20px;
+  text-align: left;
 }
 
-.nav-links {
-  width: 100%;
-  top: 5rem;
-  left: 48px;
-  background-color: #ff9776;
-  display: none;
-  margin: 0;
+nav {
+  display: flex;
+  flex-direction: row;
 }
 
-.nav-links a {
-  display: block;
-  text-align: center;
-  padding: 10px 0;
-  text-decoration: none;
-  font-size: 1.2rem;
-  font-weight: bold;
-  text-transform: uppercase;
-}
-
-.nav-links a:hover, a:focus {
-  background-color: #ff9776;
-}
-
-.expanded {
-  display: unset;
-}
-
-@media screen and (min-width: 636px) {
-  .nav-links {
-    margin-left: 5em;
-    display: block;
-    position: static;
-    width: auto;
-    background: none;
+/* Medium devices (tablets, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+      justify-content: space-between;
   }
-
-  .nav-links a {
-    display: inline-block;
-    padding: 15px 20px;
-  }
-
-  .hamburguer {
-    display: none;
+  .column {
+      flex: 1;
+      margin: 10px;
   }
 }
+
+/* Large devices (desktops, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+      flex-direction: row;
+  }
+  
+  .column {
+      margin: 20px;
+  }
+
+  #column1 {
+      flex: 1 1 30%; /* 70% width */
+  }
+  
+  #column2 {
+      flex: 1 1 70%; /* 30% width */
+
+  }
+
+  nav {
+      display: flex;
+      flex-direction: column;
+  }
+}
+
+
+
