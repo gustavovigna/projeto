@@ -8,30 +8,93 @@
 }
 
 body {
-  background-color: #a8a8a8;
-  color: #222222;
+  background-color: #CCCCCC;
+  color: #2E2D2C;
   font-family: 'Neue Haas Grotesk Display Pro', sans-serif;
-  margin: 1.25rem;
+  margin: 0rem;
+}
+
+#footer {
+  font-size: 0.75rem;
+  text-align: center;
+ }
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: 1000;
+  font-stretch: 200%;
+  padding-bottom: 0.5rem;
+}
+
+h3 {
+  padding-bottom: 0.7rem;
+}
+
+h4 {
+  padding-bottom: 0.7rem;
+}
+
+p {
+  padding-bottom: 0.7rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2E2D2C;
+  transition-timing-function: ease-in-out;
+  transition-duration: 0.2s;
+}
+
+a:hover {
+  color: #FF00FF;
+  filter: blur(0.09rem);
+}
+
+#column1 {
+  position: sticky;
+  top: 0;
+  padding-top: 40px;
+  background: rgb(204,204,204);
+  background: linear-gradient(180deg, rgba(204,204,204,1) 0%, rgba(204,204,204,1) 24%, rgba(204,204,204,1) 72%, rgba(204,204,204,0) 100%);
+
+}
+
+nav {
+  display: flex;
+  justify-items: space-between;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+li a {
+  text-align: center;
+  text-decoration: none;
 }
 
 img {
   max-width: 100%;
   height: auto;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
 }
 
 /* Container styles */
 .container {
   display: flex;
   flex-direction: column;
-  padding: 10px;
+  
 }
 
 /* Column styles */
 .column {
-
-  border: 1px solid #ddd;
   margin-bottom: 10px;
   padding: 20px;
   text-align: left;
@@ -49,33 +112,30 @@ nav {
   }
   .column {
       flex: 1;
-      margin: 10px;
-  }
+      
 }
+ }
 
 /* Large devices (desktops, 768px and up) */
 @media only screen and (min-width: 768px) {
   .container {
-      flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
   }
+
+p {
+  width: 70%;
+}
   
-  .column {
-      margin: 20px;
-  }
+#column1 {
+  padding-bottom: 40px;
+}
 
-  #column1 {
-      flex: 1 1 30%; /* 70% width */
-  }
+h1 {
+  font-size: 34px;
+}
   
-  #column2 {
-      flex: 1 1 70%; /* 30% width */
 
-  }
-
-  nav {
-      display: flex;
-      flex-direction: column;
-  }
 }
 
 

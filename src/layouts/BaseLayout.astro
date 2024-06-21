@@ -14,13 +14,18 @@ const { pageTitle } = Astro.props;
 </head>
 <body>
     <div class="container">
-        <div class="column" id="column1"><nav>
-            <p a href="index.html"> Gustavo Vigna</p>
-            <p><a href=/about>About<a></p>
-            <p>Contacts</p>
-        </nav></div>
+        <div class="column" id="column1">
+        <ul>
+           <li> <h1><a href="/">GUSTAVO VIGNA</a></h1></li>
+           <li> <h1><a href="/about">ABOUT</a></h1></li>
+           <li> <h1><a href="/contacts">CONTACTS</a></h1></li>
+        </ul>
+        </div>
         <div class="column" id="column2">
           <slot></slot>
     </div>
+    <footer>
+        <p id="footer">Copyright protected content. Total or partial reproduction is prohibited without express authorization from the authors. – Copyright © 2024</p>
+    </footer>
 </body>
 </html>

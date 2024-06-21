@@ -1,26 +1,25 @@
 ---
 layout: ../../layouts/BaseLayout.astro
-title: 'Minha Primeira Postagem no Blog'
+title: 'Aesthetics of Politics'
 pubDate: 2022-07-01
-description: 'Esta é a primeira postagem do meu novo blog Astro.'
-author: 'Aluno de Astro'
+description: 'Editorial,2023.'
+author: 'Gustavo Vigna'
 image:
     url: 'https://docs.astro.build/assets/full-logo-light.png'
     alt: 'A logo completa do Astro.'
 tags: ["astro", "blogueirando", "aprendendo em público"]
 ---
-Publicado em: 2022-07-01
-
-Bem-vindo ao meu _novo blog_ sobre aprendendo Astro! Aqui, eu irei compartilhar minha jornada de aprendizado enquanto eu construo um novo website.
-
-## O que eu realizei
-
-1. **Instalando Astro**: Primeiro, eu criei um novo projeto Astro e configurei minhas contas online.
-
-2. **Fazendo Páginas**: E então eu aprendi como fazer páginas criando novos arquivos `.astro` e os colocando na pasta `src/pages/`.
-
-3. **Fazendo Postagens no Blog**: Esta é minha primeira postagem no blog! Eu agora tenho páginas Astro e postagens em Markdown!
-
-## O que vem a seguir
-
-Eu irei completar o tutorial do Astro, e então continuarei adicionando mais postagens. Olhe por aqui para o que vem a frente.
+<h2 id="AES">Aesthetics of Politics</h2>
+            <h3>Editorial, 2023.</h3>
+<p>The Anti-design movement emerged as a criticism of
+                consumer culture and the comment on the excesses
+                of Italian design and the continuous drive for
+                novelty. The proponents of this new tendency were
+                dissatisfified with the widespread diminution of the
+                social relevance of design at the expense of capitalist
+                enterprise. The group rejected the formalist values
+                of the neo-modern design in Italy aiming to renew the cultural and political role of design.</p>
+                <figure><img src="../public/AES.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="../public/AES2.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="../public/AES3.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="../public/AES4.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>

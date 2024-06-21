@@ -9,4 +9,12 @@ image:
 pubDate: 2022-07-15
 tags: ["astro", "aprendendo em público", "contratempos", "comunidade"]
 ---
-Nem tudo está sendo fácil, mas estou gostando de construir com Astro. E a [comunidade no Discord](https://astro.build/chat) é realmente amigável e cooperativa!
+<h2 id="AES">ATENA</h2>
+            <h3>Editorial + Web + Visual Identity, 2021.</h3>
+<p>ATENA is a personal project about a fictional feminist activist group names ATENA. In a team of
+                    4, we developed a booklet containing texts and artciles about different topics on feminism,
+                    together with a website with the same information and with the group’s objectives and beliefs.</p>
+                <figure><img src="/ATENA.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/ATENA2.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/ATENA3.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/ATENA4.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
