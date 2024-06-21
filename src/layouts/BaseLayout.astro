@@ -8,9 +8,7 @@ const { pageTitle } = Astro.props;
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="generator" content={Astro.generator} />
     <title>Responsive Homepage</title>
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -18,12 +16,11 @@ const { pageTitle } = Astro.props;
     <div class="container">
         <div class="column" id="column1"><nav>
             <p a href="index.html"> Gustavo Vigna</p>
-            <p>About</p>
+            <p><a href=/about>About<a></p>
             <p>Contacts</p>
         </nav></div>
-    <Footer />
-    <script>
-      import "../scripts/menu.js";
-    </script>
-  </body>
+        <div class="column" id="column2">
+          <slot></slot>
+    </div>
+</body>
 </html>

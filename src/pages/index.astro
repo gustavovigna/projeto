@@ -3,40 +3,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Projects";
 ---
 <BaseLayout pageTitle={pageTitle}>
-</BaseLayout>
- <div class="column right">
-    <div class="row2">
-        <div class="text">
-            <h3 id="YOUWILL">You Will Understand This Later. Will I?</h3>
-            <h4>Identity + Communication + Editorial + Web, 2023.</h4>
-            <p>Once upon a time, Jean-Luc Godard said "A story should have a beginning, a middle, and an end,
-                but not necessarily in that order". We follow this triad logic, assuming that a story can be
-                told through its various beginnings.</p>
-            <p>Revealing itself as a retrospective of a very peculiar degree in communication design, this
-                project reflects not only the results that arise along a learning path, but also the experiences
-                and concerns that marked and continue to mark a generation. As a collective of 4 people, we
-                developed an exhibition and later the identity and communication of the project.</p>
-        </div>
-        <div class="figure">
-            <figure><img src="assets/YOUWILL.gif" alt="Poster for the project exhibition" class="image"></figure>
-        </div>
-    </div>
-    <div class="row2">
-        <div class="text">
-            <h3 id="ATENA">ATENA</h3>
-            <h4>Editorial + Web, 2021.</h4>
-            <p>ATENA is a personal project about a fictional feminist activist group names ATENA. In a team of
-                4, we developed a booklet containing texts and artciles about different topics on feminism,
-                together with a website with the same information and with the group’s objectives and beliefs.
-            </p>
-        </div>
-        <div class="figure">
-            <figure><img src="assets/ATENA.png" alt="One spread of the ATENA booklet" class="image4"></figure>
-        </div>
-    </div>
-    <div class="row2">
-        <div class="text">
-            <h3 id="AES">Aesthetics of Politics</h3>
+<h3 id="AES"><a href="/posts/post-1">Aesthetics of Politics</a></h3>
             <h4>Editorial, 2023.</h4>
             <p>The Anti-design movement emerged as a criticism of
                 consumer culture and the comment on the excesses
@@ -46,4 +13,27 @@ const pageTitle = "Projects";
                 social relevance of design at the expense of capitalist
                 enterprise. The group rejected the formalist values
                 of the neo-modern design in Italy aiming to renew the cultural and political role of design.</p>
-        </div>
+                <div class="figure">
+            <figure><img src="assets/AES.jpg" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure></div>
+                <h3 id="YOUWILL">You Will Understand This Later. Will I?</h3>
+                <h4>Identity + Communication + Editorial + Web, 2023.</h4>
+                <p>Once upon a time, Jean-Luc Godard said "A story should have a beginning, a middle, and an end,
+                    but not necessarily in that order". We follow this triad logic, assuming that a story can be
+                    told through its various beginnings.</p>
+                <p>Revealing itself as a retrospective of a very peculiar degree in communication design, this
+                    project reflects not only the results that arise along a learning path, but also the experiences
+                    and concerns that marked and continue to mark a generation. As a collective of 4 people, we
+                    developed an exhibition and later the identity and communication of the project.</p>
+            <div class="figure">
+                <figure><img src="assets/YOUWILL.png" alt="Poster for the project exhibition" class="image"></figure>
+            </div>
+                <h3 id="ATENA">ATENA</h3>
+                <h4>Editorial + Web, 2021.</h4>
+                <p>ATENA is a personal project about a fictional feminist activist group names ATENA. In a team of
+                    4, we developed a booklet containing texts and artciles about different topics on feminism,
+                    together with a website with the same information and with the group’s objectives and beliefs.
+                </p>
+            <div class="figure">
+                <figure><img src="assets/ATENA.png" alt="One spread of the ATENA booklet" class="image4"></figure>
+            </div>
+</BaseLayout>
