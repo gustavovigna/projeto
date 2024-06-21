@@ -1,6 +1,9 @@
-/* styles.css */
 
-/* Basic reset for better cross-browser compatibility */
+@font-face {
+  font-family: 'Neue Haas Grotesk Display Pro';
+  src: url('fonts/NeueHaasDisplay') format('truetype');
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -86,14 +89,14 @@ img {
   padding-bottom: 50px;
 }
 
-/* Container styles */
+
 .container {
   display: flex;
   flex-direction: column;
   
 }
 
-/* Column styles */
+
 .column {
   margin-bottom: 10px;
   padding: 20px;
