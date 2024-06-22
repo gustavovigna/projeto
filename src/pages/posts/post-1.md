@@ -19,7 +19,7 @@ tags: ["astro", "blogueirando", "aprendendo em público"]
                 social relevance of design at the expense of capitalist
                 enterprise. The group rejected the formalist values
                 of the neo-modern design in Italy aiming to renew the cultural and political role of design.</p>
-                <figure><img src="../public/AES.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
-                <figure><img src="../public/AES2.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
-                <figure><img src="../public/AES3.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
-                <figure><img src="../public/AES4.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/AES.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/AES2.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/AES3.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
+                <figure><img src="/AES4.png" alt= "Cover of the magazine Aesthetics of Politics" class="image2"></figure>
